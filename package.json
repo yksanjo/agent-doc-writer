@@ -1,0 +1,14 @@
+{
+  "name": "agent-doc-writer",
+  "version": "1.0.0",
+  "description": "Technical Documentation Writer",
+  "private": true,
+  "workspaces": ["packages/*", "services/*", "integrations/*"],
+  "scripts": {
+    "test": "npm test --workspaces --if-present",
+    "dev": "npm run dev --workspaces --if-present"
+  },
+  "keywords": ["agent", "ai", "docs,api-docs,tutorials,changelog"],
+  "author": "Yoshi Kondo <yoshi@musicailab.com>",
+  "license": "MIT"
+}
